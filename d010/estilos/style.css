@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'android, cursive';
+    src: url(../fontes/idroid.otf);
+} 
+
+/*
+    #A4C639 - cor android
+    #88A32F - tom intermediario
+    #445218 - tom mais escura
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #88A32F;
+}
+
+header {
+    background: linear-gradient(#88A32F, #445218);
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding: 10px;
+    font-family: 'roboto';
+}
+
+article {
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+article h1{
+    font-family: 'android, cursive';
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+div {
+    background-color: #c7d885;
+}
+
+footer {
+    background-color: #445218;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.8px;
+    font-size: 0.8em;
+    padding: 10px;
+}
