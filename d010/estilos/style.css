@@ -29,38 +29,76 @@ header {
     text-align: center;
 }
 
-header > h1 {
-    padding: 10px;
+header h1 {
     font-family: 'roboto';
+    font-size: 2em;
+}
+
+header p {
+    font-size: 0.8em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
 }
 
 article {
     background-color: white;
-    width: 90vw;
+    width: 80vw;
     margin: auto;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
 }
 
-article h1{
+article h1 {
     font-family: 'android, cursive';
+    color: #445218;
+    padding: 10px;
+}
+
+article h2 {
+    font-family: 'android, cursive';
+    font-size: 1.3em;
+    background: linear-gradient(to right, #a5c63977, white);
+    color: #445218;l
+}
+
+article p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+    letter-spacing: 0.9px;
 }
 
 img {
     display: block;
     margin: auto;
+    width: 100%;
 }
 
-div {
+img#bugdroid { 
+    width: 50%;
+}
+
+div#video {
+    background-color: #445218;
+    padding: 10px;
+}
+
+div#extra {
     background-color: #c7d885;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 footer {
     background-color: #445218;
     color: white;
     text-align: center;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.9px;
     font-size: 0.8em;
     padding: 10px;
 }
