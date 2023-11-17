@@ -27,20 +27,25 @@ header {
     background: linear-gradient(#88A32F, #445218);
     color: white;
     text-align: center;
+    padding: 20px;
 }
 
 header h1 {
     font-family: 'roboto';
     font-size: 2em;
+    padding: 10px;
 }
 
 header p {
     font-size: 0.8em;
+    padding: 10px;
 }
 
-header a {
+nav, a {
+    background-color: #445218;
     color: white;
     text-decoration: none;
+    padding: 10px;
 }
 
 article {
@@ -87,11 +92,23 @@ div#video {
     padding: 10px;
 }
 
-div#extra {
+aside {
     background-color: #c7d885;
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
+}
+
+aside h3 {
+    background-color: #46521898;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside ul {
+    columns: 2;
 }
 
 footer {
