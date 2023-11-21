@@ -25,7 +25,6 @@ header h1 {
 
 header a {
     color: white;
-    font-size: 0.8em;
     text-decoration: none;
 }
 
@@ -38,6 +37,10 @@ section {
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
 }
 
 .imagem {
@@ -61,4 +64,12 @@ section {
 .imagem#img02 {
     background-image: url(../imagens/background002.jpg);
     background-position: right center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
 }
